@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "label": "virement",
+      "type": "textfield",
+      "id": "Field_135uj7r",
+      "key": "virement1",
+      "description": "virement recu",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "verification du virement ",
+      "type": "textfield",
+      "id": "Field_1ibs7c4",
+      "key": "virement2",
+      "description": "virement verifier ",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "validation virement",
+      "type": "textfield",
+      "id": "Field_03ay4s6",
+      "key": "virement3",
+      "description": "virement valider",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "verification virement etape finale",
+      "type": "textfield",
+      "id": "Field_09depbo",
+      "key": "virement4",
+      "description": "verification",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "virement-process",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.8.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}
